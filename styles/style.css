@@ -80,3 +80,14 @@
     color: #ffffff;
     padding: 15px;
 }
+
+
+.open-soon{
+    border: opx solid #ffffff;
+    /* background-color: #ffffff; */
+}
+
+
+.gap-6{
+    gap: 50px;
+}
