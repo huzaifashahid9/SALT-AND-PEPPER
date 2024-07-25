@@ -37,6 +37,7 @@
     width: 100%;
 }
 
+/* EXPRESS CSS START */
 
 .express-text1{
     font-size: 5rem;
@@ -47,7 +48,7 @@
 
 }
 .express-text3{
-    font-size: 2rem;
+    font-size: 1.7rem;
 
 }
 
@@ -66,4 +67,16 @@
     background-color: #ffffff;
     border: 0px solid #ffffff;
     border-radius: 10px;
+}
+
+
+/* EXPRESS CSS END */
+
+
+.get-directbut{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
 }

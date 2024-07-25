@@ -155,6 +155,29 @@ html{
     background-color: var(--black);
 
 }
+
+.bg-gray{
+    background-color: #0f0f0f;
+}
 .text-center{
     text-align: center;
+}
+
+
+
+.text-red{
+    color: #ff0000;
+}
+
+.font-size3{
+    font-size: 3rem;
+}
+.font-size4{
+    font-size: 4rem;
+}
+.font-size2{
+    font-size: 2rem;
+}
+.text-gray{
+    color: #808080;
 }
