@@ -36,3 +36,34 @@
 .corosel-img{
     width: 100%;
 }
+
+
+.express-text1{
+    font-size: 5rem;
+
+}
+.express-text2{
+    font-size: 4rem;
+
+}
+.express-text3{
+    font-size: 2rem;
+
+}
+
+
+.express-logo1{
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+}
+.express-logo2{
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+}
+.express-logo3{
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+}

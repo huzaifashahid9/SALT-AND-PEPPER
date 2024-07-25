@@ -9,6 +9,16 @@
     src: url(../fonts/apercu_medium_pro.otf);
 }
 
+@font-face {
+    font-family: futurak ;
+    src: url(../fonts/futurak.ttf);
+}
+
+
+.snp-logo{
+    font-family: futurak;
+}
+
 
 html{
     font-size: 62.5%;
@@ -144,4 +154,7 @@ html{
 .bg-dark{
     background-color: var(--black);
 
+}
+.text-center{
+    text-align: center;
 }
