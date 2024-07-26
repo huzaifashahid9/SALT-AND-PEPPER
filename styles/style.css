@@ -91,3 +91,27 @@
 .gap-6{
     gap: 50px;
 }
+
+
+.border{
+
+    border: 0px solid #ffffff;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.opensoon-pad{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+
+.border-top{
+    border-top: 1px solid #000000;
+}
