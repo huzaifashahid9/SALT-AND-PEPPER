@@ -210,3 +210,7 @@ html{
 .mt-5{
     margin-top: 50px;
 }
+
+.cursor-point{
+    cursor: pointer;
+}
