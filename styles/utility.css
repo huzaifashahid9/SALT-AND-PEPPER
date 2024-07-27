@@ -78,6 +78,9 @@ html{
 .gap-5{
     gap: 25px;
 }
+.gap-6{
+    gap: 80px;
+}
 
 
 /* MARGIN PROPERTIES */
@@ -184,8 +187,26 @@ html{
 .text-gray{
     color: #808080;
 }
+.border-top{
+    border-top: 1px solid #000000;
+}
+
+/* MARGIN TOP */
 
 
+
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-4{
+    margin-top: 40px;
+}
 .mt-5{
     margin-top: 50px;
 }
