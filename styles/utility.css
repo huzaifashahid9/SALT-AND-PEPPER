@@ -190,6 +190,10 @@ html{
 .border-top{
     border-top: 1px solid #000000;
 }
+.borderwhite-top{
+    border: 0.1px solid #808080;
+
+}
 
 /* MARGIN TOP */
 
