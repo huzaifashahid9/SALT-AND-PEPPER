@@ -1,0 +1,65 @@
+/* NAVBAR STARTED */
+.head-logo{
+    width: 165px;
+}
+.nav-item{
+    font-size: 2rem;
+}
+.navbar{
+    padding: 15px;
+}
+.franchise-but{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius:  30px;
+    padding: 15px 20px;
+}
+.online-but{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.arrow-but{
+    background-color: #ffffff;
+    color: #ff0000;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 30px;
+}
+/* NAVBAR ENDED */
+
+/* CUROSEL PIC CSS START */
+
+
+.bg-image{
+    background-image: url(../assests/feedback\ banner\ pic.webp);
+    width: 100%;
+    height: 598px;
+}
+
+
+.position-rel{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+/* CUROSEL PIC CSS END */
+
+
+input{
+    width: 200px;
+    height: 50px;
+}
+.button{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 2remj;
+    padding: 15px;
+    border: 1px soliud #ffffff;
+    border-radius: 10px;
+}
