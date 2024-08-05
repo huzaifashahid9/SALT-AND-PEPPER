@@ -40,58 +40,117 @@
 
       <!-- FORM AREA START -->
 
-      <div class="mt-5 d-flex justify-center gap-5">
-        <div>
-            <h1 class="center mt-5 font-size3 text-center">Rate Your Experience</h1>
-        <div class="d-flex justify-center mt-5 gap-5">
-           <div class="font-size2"><p>Food Quality</p><i class="fa-solid fa-star mt-3"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+      <div class="contact-column">
+        <div class="form">
+            <p class="font-size2">Your feedback is important to us and we greatly appreciate you filling out the comment form below. We
+                look forward to hearing from you!</p>
+            <div class="stars-col">
+                <div class="star-content">
+                    <p class="font-size2 mt-2">Food</p>
+                    <div class="star-column mt-2">
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
 
-           <div class="font-size2"> <p>Food Quantity</p><i class="fa-solid fa-star mt-3"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <div class="star-content">
+                    <p class="font-size2 mt-2">Service</p>
+                    <div class="star-column mt-2">
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
 
-           <div class="font-size2"><p>Ambiance</p><i class="fa-solid fa-star mt-3"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <div class="star-content">
+                    <p class="font-size2">Cleanliness</p>
+                    <div class="star-column mt-2">
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
 
-           <div class="font-size2"> <p>Service</p><i class="fa-solid fa-star mt-3"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-        </div><br>
-        <div>
-            <form class="font-size2  text-center">
-                <label for="text">Title</label><br /><br />
-                <input type="text" name="Title" id="Title"><br />
-    
-                <label for="text">Comment</label><br /><br />
-                <input type="text" name="Comment" id="Comment"><br />
-    
-                <label for="text">Full Name <span class="text-red">*</span></label><br /><br />
-                <input type="text" name="Full Name" id="Full Name"><br />
-    
-                <label for="Email">Email <span class="text-red">*</span></label><br /><br />
-                <input type="text" name="Email" id="Email"><br />
-    
-                <label for="Contact">Phone Number <span class="text-red">*</span></label><br /><br />
-                <input type="text" name="Contact" id="Contact"><br /><br>
-    
-                <button class="button">SUBMIT</button>
+                <div class="star-content">
+                    <p class="font-size2">Value for Money</p>
+                    <div class="star-column mt-2">
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <form>
+                <div class="field-2 mt-2">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="Number" placeholder="Phone Number" required>
+                </div>
+                <input type="datetime-local" required class="contact_fields w-100 margin_bottom_15" name="date_time" id="datetimee" value="2024-06-31T23:16" required>
+                <select required>
+                    <option value="1">Select Branch</option>
+                    <option>3-48 – Commercial Zone, Gulberg II, Lahore, Pakistan</option>
+                </select>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="4" placeholder="Suggest (if Any)" required></textarea>
+                <div><p class="font-size2">Kindly incdicate your favourite items from our menu.</p></div>
+                <div class="d-flex mt-2 gap-2">
+                <label>1.</label>
+                <textarea name="" id=""></textarea>
+                <label>2.</label>
+                <textarea name="" id=""></textarea>
+                <label>3.</label>
+                <textarea name="" id=""></textarea>
+                </div>
+                <div>
+                   <div><label class="font-size2">Are you satisfied with our current menu?</label></div>
+                   <div class="mt-2 font-size2 d-flex item-center">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" name="Are you satisfied with our current menu?" id="Yes">
+                    <label for="No">No</label>
+                    <input type="radio" name="Are you satisfied with our current menu?" id="No">
+                   </div>
+                </div>
+
+                <div><p class="font-size2">If not, what new food items would you like us to add?</p></div>
+                <div class="d-flex mt-2 gap-2">
+                    <label>1.</label>
+                    <textarea name="" id=""></textarea>
+                    <label>2.</label>
+                    <textarea name="" id=""></textarea>
+                    <label>3.</label>
+                    <textarea name="" id=""></textarea>
+                    </div>
+                <button>Submit</button>
             </form>
-        </div><br><br>
         </div>
-        <div class="text-center">
-            <h3 class="font-size3 mt-5">Foodconsults (PVT.) LTD.</h3><br><br>
-            <p class="font-size2">Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar <br>, considered by many as the pioneer restaurateur in Pakistan. The <br> organization, which has its headquarter in Lahore, prides itself on <br> developing and growing a unique chain of restaurants known as the Salt’n <br> Pepper Restaurants. Salt’n Pepper restaurants are Pakistan’s most <br>recognized and distinguished hospitality brand with a history of market <br> innovation and excellence in restaurant chain operations.</p><br><br>
-
-            <h3 class="font-size3">Contact Us</h3><br><br>
-
-            <img src="./assests/map-pic.jpeg" alt=""><br><br>
-
-            <h3 class="font-size3">Head Office</h3><br><br>
-
-            <p class="text-gray font-size2 "><span><i class="fa-solid fa-phone"></i></span>Ph: 051-2604904-6</p><br><br>
-            <p class="text-gray font-size2 "><span><i class="fa-solid fa-phone"></i></span>Ph: 051-2604904-6</p><br><br>
-            <p class="text-gray font-size2 "><span><i class="fa-solid fa-phone"></i></span>Ph: 051-2604904-6</p><br><br>
-            <p class="text-gray font-size2 "><span><i class="fa-solid fa-phone"></i></span>Ph: 051-2604904-6</p><br><br>
-            <p class="text-gray font-size2 "><span><i class="fa-solid fa-location-dot"></i></span> Plot# 55, Shabbir Plaza, Blue Area, F-6, Lahore Pakistan</p><br><br><br>
+        <div class="map">
+            <h1 class="font-size2">Foodconsults (PVT.) LTD.</h1>
+            <p class="font-size2 mt-3">Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar, considered by many as the pioneer restaurateur in Pakistan. The organization, which has its headquarter in Lahore, prides itself on developing and growing a unique chain of restaurants known as the Salt’n Pepper Restaurants. Salt’n Pepper restaurants are Pakistan’s most recognized and distinguished hospitality brand with a history of market innovation and excellence in restaurant chain operations.</p>
+            <h1 class="font-size2 mt-3">Contact Us</h1>
+            <iframe class="mt-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d870807.3376733516!2d74.19082031088247!3d31.50791968177901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904fee737254d%3A0x8370603d14476306!2sFoodconsults%20(Pvt)%20Ltd!5e0!3m2!1sen!2sus!4v1722450807282!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <h3 class="font-size4 mt-2">Head Office</h3>
+           <p class="mt-2 font-size2"><span><i class="fa-solid fa-phone"></i></span>+92-42-35850931</p>
+           <p class="mt-2 font-size2"><span><i class="fa-solid fa-phone"></i></span>+92-42-35850930</p>
+           <p class="mt-2 font-size2"><span><i class="fa-solid fa-phone"></i></span>+92 42 111-100-678</p>
+           <p class="mt-2 font-size2"><span><i class="fa-solid fa-envelope"> snpfood@brain.net.pk</i></span></p>
+           <p class="mt-2 font-size2"><span><i class="fa-solid fa-location-dot"></i></span>23 Usman Block, New Garden Town, Lahore, Pakistan</p>
         </div>
-      </div>
+    </div>
+    </div>
 
-      <!-- FORM AREA END -->
+
+
+    <!-- FORM AREA END -->
 
 
 

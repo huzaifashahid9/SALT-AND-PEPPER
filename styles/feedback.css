@@ -63,3 +63,88 @@ input{
     border: 1px soliud #ffffff;
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+/* FORM CSS */
+.feedback-container{
+    background-image: url(../assets/feedback-img.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+}
+
+
+.contact-column {
+    display: flex;
+    gap: 40px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 100px;
+}
+
+.form {
+    width: 50%;
+    border-right: 1px dotted #ffff;
+}
+
+.map {
+    width: 50%;
+}
+
+.star-column {
+    display: flex;
+    gap: 5px;
+}
+
+.star-column p i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.stars-col {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form {
+    padding-right: 20px;
+}
+
+.field-2{
+    display: flex;
+    gap: 10px;
+}
+
+form input , form select , form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.map {
+    text-align: center;
+}
+
+.map h1{
+    font-weight: 900;
+}
+
+form button{
+    background-color: #ed1c24;
+    color: #fff;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 50px;
+}
